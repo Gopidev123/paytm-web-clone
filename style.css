@@ -1,0 +1,1159 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+#nav-bar {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.menu a {
+    margin-top: 30px;
+    display: inline-block;
+    /* margin: 20 auto; */
+    justify-content: space-between;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.sign-up button {
+
+    background-color: #00d5fb;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+.data {
+    z-index: 1px;
+}
+
+.home {
+    margin-top: 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.left-img {
+    width: 50%;
+}
+
+.left-img img {
+
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.left-img h3 {
+
+    font-size: 60;
+    color: black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.left-img p {
+    font-size: 35;
+    margin-left: 50px;
+    color: black;
+    margin-top: 20px;
+}
+
+.right-img img {
+
+    width: 500px;
+    height: 500px;
+}
+
+.dowmload-btn {
+
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20;
+}
+
+.recharge,
+.Book-on-paytm {
+
+    width: 100%;
+    height: 400px;
+    background-color: #00d5fb;
+    margin-top: 100px;
+}
+
+.Book-on-paytm {
+    margin-top: -20px;
+    background-color: rgba(15, 74, 138, 255);
+    height: 400px;
+
+}
+
+.recharge h2 {
+
+    font-size: 40;
+    color: white;
+    /* margin-left: 50px; */
+    padding: 50px;
+}
+
+.rec-menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.rec-menu-1 {
+
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.rec-menu-1:hover {
+    background-color: #00afe3;
+    border-radius: 20px;
+}
+
+.rec-menu-1 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-2 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-2 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-3 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-3 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-4 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-4 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-5 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-5 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-6 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-6 img {
+
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.rec-menu-7 {
+
+    width: 150px;
+    height: 200px;
+    display: block;
+}
+
+.rec-menu-7 img {
+
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.rec-menu-1,
+.rec-menu-2,
+.rec-menu-3,
+.rec-menu-4,
+.rec-menu-5,
+.rec-menu-6,
+.rec-menu-7 p {
+    margin-top: 20px;
+    color: white;
+    font-size: 20;
+}
+
+.Book-on-paytm h2 {
+
+    font-size: 40;
+    color: white;
+    /* margin-left: 50px; */
+    padding: 50px;
+}
+
+.paytm-instruments h1 {
+
+    margin-top: 100px;
+    margin-left: 100px;
+    color: black;
+    font-size: 50;
+}
+
+.instruments {
+
+    width: 90%;
+    height: 500px;
+    margin-left: 100px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    gap: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+.image-left {
+    width: 40%;
+}
+
+.pay-wa {
+    width: 50px;
+    display: flex;
+}
+
+.pay-wa img {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.pay-wa p {
+    color: black;
+    margin-top: 60px;
+    font-size: 20;
+    font-weight: 900;
+
+}
+
+.image-left h2 {
+
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 30;
+    width: 600;
+
+
+
+}
+
+.p1 {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20;
+    font-weight: 500;
+
+}
+
+.dowmload-btn-1 {
+
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20;
+
+}
+
+.instruments-2 {
+
+    width: 90%;
+    height: 500px;
+    margin-left: 100px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    gap: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+
+.image-left-2 {
+    width: 40%;
+}
+
+.pay-wa-2 {
+
+    width: 70px;
+    display: flex;
+
+}
+
+.pay-wa-2 img {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.pay-wa-2 p {
+    color: black;
+    margin-top: 60px;
+    font-size: 20;
+    font-weight: 900;
+
+}
+
+.image-left-2 h2 {
+
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 50;
+    width: 600;
+
+
+
+}
+
+.p2 {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20;
+    font-weight: 500;
+
+}
+
+.image-right-2 img {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+/*
+.card{
+    width: 90%;
+    height: 600px;
+    margin-left: 100px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    gap: 100px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 20px;   
+}*/
+.card {
+    display: flex;
+}
+
+.cash-back {
+
+    width: 40%;
+    height: 800px;
+    margin-left: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+}
+
+/*
+.credit-card {
+    width: 40%;
+    height: auto;
+    margin-left: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+
+}*/
+
+.cash-back-1 {
+
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.cash-back-1 img {
+
+    width: 250px;
+    height: 100px;
+
+}
+
+.cash-back-1 h2 {
+
+    font-size: 50;
+    margin-top: 30px;
+
+}
+
+.cash-back-1 p {
+
+    font-size: 20;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.cash-back-2 {
+    margin-top: 5px;
+    font-size: 15;
+    margin-left: 50px;
+}
+
+.credit-card {
+    width: 40%;
+    height: auto;
+    margin-left: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+
+}
+
+.card-1 {
+
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.card-1 img {
+    width: 250px;
+    height: 30px;
+    margin-top: 70px;
+
+}
+
+.card-1 h2 {
+    font-size: 50;
+    margin-top: 30px;
+
+}
+
+.card-1 p {
+    font-size: 20;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.card-2 {
+    margin-top: 5px;
+    font-size: 15;
+    margin-left: 50px;
+}
+
+.finacial-services {
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.services {
+
+    width: 50%;
+}
+
+.services h1 {
+
+    margin-top: 50px;
+    font-size: 50;
+    font-weight: 600;
+    margin-left: 90px;
+
+}
+
+.services img {
+
+    width: 300px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.services h2 {
+
+    margin-top: 30px;
+    font-size: 50;
+    font-weight: 600;
+    margin-left: 90px;
+}
+
+.services p {
+    margin-top: 30px;
+    font-size: 20;
+    font-weight: 500;
+    margin-left: 90px;
+}
+
+.services button {
+
+    width: 200px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(15, 74, 138, 255);
+}
+
+.services button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+}
+
+.service-img {
+
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.paytm-money-1 {
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.phone {
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+.paytm-money {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+
+.paytm-money-2 {
+    position: absolute;
+    left: 600px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.paytm-money-2 img {
+    width: 150px;
+    height: 50px;
+
+}
+
+.paytm-money-2 h2 {
+
+    margin-top: 50px;
+    font-size: 50;
+    font-weight: 900;
+
+}
+
+.paytm-money-2 p {
+    font-size: 20;
+    font-weight: 10;
+    margin-top: 50px;
+}
+
+.paytm-money-2 button {
+    width: 200px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(15, 74, 138, 255);
+
+}
+
+.paytm-money-2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+}
+
+.insurance {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    /* margin-left: 90px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+    /* flex-wrap: wrap; */
+}
+
+.insurance-1 {
+
+    width: 40%;
+    margin-left: 100px;
+}
+
+.insurance-1 img {
+
+    width: 150px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.insurance-1 h3 {
+    font-size: 50;
+    margin-top: 50px;
+}
+
+.insurance-1 p {
+    font-size: 30;
+    margin-top: 30px;
+    font-weight: 200;
+}
+
+.insurance-1 button {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(15, 74, 138, 255);
+
+}
+
+.insurance-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+
+}
+
+.insurance-2 {
+
+    width: 50%;
+}
+
+.insurance-2 img {
+
+    margin-top: 100px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.personal-loan {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+
+}
+
+.loan-img {
+
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 40%;
+
+}
+
+.loan {
+    width: 60%;
+    margin-top: 100px;
+}
+
+.loan img {
+
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.loan h1 {
+
+    margin-top: 50px;
+    font-size: 50;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.loan p {
+    margin-top: 30px;
+    font-size: 25;
+    font-weight: 100;
+    margin-left: 100px;
+}
+
+.loan button {
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(15, 74, 138, 255);
+    margin-left: 100px;
+
+
+}
+
+.loan button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+
+
+}
+
+h1 {
+    font-size: 50;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.business-service {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    margin-top: 100px;
+}
+
+.business-left {
+    width: 40%;
+    margin-top: 100px;
+}
+
+.business-left h2 {
+
+    margin-top: 100px;
+    margin-left: 100px;
+    font-weight: 1000px;
+    font-size: 40;
+}
+
+.business-left p {
+
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 1000px;
+    font-size: 20
+}
+
+.business-left button {
+
+    width: 200px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(15, 74, 138, 255);
+    margin-left: 100px;
+
+}
+
+.business-left button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20;
+
+
+}
+
+.business-right {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.business-right img {
+    width: 500px;
+    height: 500px;
+}
+
+.business-head {
+
+
+    width: 600px;
+
+
+}
+
+.business-tools {
+
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+    display: flex;
+
+    gap: 50px;
+
+}
+
+.tool-one {
+
+    width: 20%;
+    height: 500px;
+}
+
+.tool-one img {
+
+    width: 250px;
+    height: 250px;
+}
+
+.tool-one h2 {
+
+    margin-top: 30px;
+    width: 200px;
+    font-size: 30;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 45%;
+
+
+
+
+}
+
+.tool-one h3 {
+    margin-top: 30px;
+    width: 200px;
+    font-size: 25;
+    font-weight: 300;
+
+
+}
+.money{
+
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.one {
+
+    height: 400px;
+    width: 300px;
+    /* background-color: rebeccapurple; */
+}
+.one img{
+    width: 150px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.one h2{
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+.one a{
+    text-decoration: none;
+    color: #00afe3;
+    margin-left: 20px;
+    
+}
+.two {
+    height: 300px;
+    width: 250px;
+    background-color: #00afe3;
+    border-radius: 10px;
+    
+}
+.two h3{
+
+    margin-left: 20px; 
+    color: white;
+}
+.two img{
+
+    width: 95%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.two img:hover{
+    transform: scale(1.1);
+
+}
+.three {
+    height: 300px;
+    width: 250px;
+    background-color: #00afe3;
+    border-radius: 10px;
+    
+}
+
+
+.three img{
+
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding: 30px;
+
+
+
+}
+.three img:hover{
+
+    transform: scale(1.9);
+
+}
+.three h3{
+    color: white;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fotter{
+
+    height: 400px;
+    background-color: black;
+}
+.foot{
+    display: flex;
+    gap: 40px;
+    justify-content: center;   
+    padding: 200px; 
+}
+.foot h2{
+    color: white;
+}
+/* Responsive styles for personal loan */
+@media (max-width: 1024px) {
+    .personal-loan {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loan-img {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .loan {
+        width: 80%;
+        text-align: center;
+    }
+
+    .loan img {
+        width: 150px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .loan h1 {
+        margin: 20px 0;
+        font-size: 2rem;
+    }
+
+    .loan p {
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .loan button {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .loan-img {
+        width: 90%;
+    }
+
+    .loan h1 {
+        font-size: 1.8rem;
+    }
+
+    .loan p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .loan-img {
+        width: 100%;
+    }
+
+    .loan h1 {
+        font-size: 1.5rem;
+    }
+
+    .loan p {
+        font-size: 0.8rem;
+    }
+
+    .loan button {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .business-tools {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tool-one {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .tool-one {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .tool-one {
+        width: 30%;
+    }
+}
+
+/* Media queries */
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .money {
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+
+    .one, .two {
+        width: calc(100% - 40px);
+        margin-bottom: 20px;
+    }
+
+    .one {
+        height: auto;
+    }
+
+    .one img {
+        margin: 20px auto;
+    }
+}
+
+/* For tablets and larger devices */
+@media only screen and (min-width: 601px) {
+    .money {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* For desktop devices */
+@media only screen and (min-width: 993px) {
+    .money {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
